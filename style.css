@@ -67,10 +67,10 @@ body{
 }
 .date-display {
     position: absolute;
-    top: 52%; /* Isse yeh 6 number ke thoda upar aayega */
+    top: 52%; 
     left: 56%;
-    transform: translateX(-50%); /* Bilkul center mein karne ke liye */
-    background: rgba(255, 255, 255, 0.15); /* Light transparent background */
+    transform: translateX(-50%); 
+    background: rgba(255, 255, 255, 0.15); 
     padding: 2px 8px;
     border-radius: 4px;
     font-size: 11px;
@@ -79,5 +79,5 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.3);
     display: flex;
     gap: 8px;
-    z-index: 5; /* Taaki hands ke niche rahe */
+    z-index: 5; 
 }
